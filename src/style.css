@@ -44,3 +44,52 @@
   background-color: var(--branding-color);
   color: black;
 }
+
+.btn-projects {
+  background-color: white;
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  padding: 18px 30px;
+  font-family: "Poppins", sans-serif;
+  color: var(--branding-color);
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.btn-projects:hover {
+  background-color: white;
+  border: 1px solid var(--branding-color);
+  font-family: "Poppins", sans-serif;
+  color: black;
+}
+
+.second-section {
+  padding: 80px 20px;
+}
+
+.second-section p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+}
+
+.project-header {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 86px;
+}
+
+.project-desc {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  padding-bottom: 50px;
+}
+
+.container {
+  margin: 0 auto;
+}
