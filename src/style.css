@@ -3,24 +3,28 @@
   --secondary-color: #f9f7fe;
 }
 
-.hero {
-  background-color: var(--secondary-color);
-  text-align: center;
-  padding: 160px 20px;
-}
-
-.hero h1 {
+h1 {
   font-family: "Playfair Display", serif;
   font-weight: 700;
   font-size: 96px;
   line-height: 128px;
 }
 
-.hero h2 {
+h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 36px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.hero {
+  background-color: var(--secondary-color);
+  text-align: center;
+  padding: 160px 20px;
 }
 
 .hero h3 {
@@ -90,6 +94,18 @@
   padding-bottom: 50px;
 }
 
-.container {
+.about-section {
+  padding: 160px 50px;
   margin: 0 auto;
+}
+
+.about-text {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.about-header {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 80px;
 }
