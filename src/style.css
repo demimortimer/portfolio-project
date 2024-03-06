@@ -21,11 +21,18 @@ h4 {
   font-family: "Playfair Display", serif;
   font-weight: 700;
   font-size: 48px;
-  line-height: 64px;
+  line-height: 72px;
 }
 
 body {
   font-family: "Poppins", sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 56px;
+    line-height: 150%;
+  }
 }
 
 .hero {
@@ -121,4 +128,26 @@ body {
   background-color: var(--secondary-color);
   padding: 30px 120px;
   border-radius: 10px;
+}
+
+.email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+.social-links a:hover {
+  color: white;
+  background-color: var(--branding-color);
 }
