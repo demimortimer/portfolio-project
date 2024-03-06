@@ -17,6 +17,13 @@ h2 {
   line-height: 36px;
 }
 
+h4 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+}
+
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -108,4 +115,10 @@ body {
   font-size: 64px;
   font-weight: 700;
   line-height: 80px;
+}
+
+.contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
 }
